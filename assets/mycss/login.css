@@ -1,0 +1,16 @@
+.body-login{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	padding: 30px 10px;
+	box-shadow: 2px 2px 8px rgba(0, 123, 255, 0.5);
+	border-radius: 8px;
+	/*background-color: cyan*/
+}
+
+@media(max-width: 600px){
+	.img-login{
+		display: none;	
+	}
+}
